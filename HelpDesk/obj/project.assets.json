@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\HelpDesk\\HelpDesk.csproj",
+      "projectUniqueName": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\HelpDesk.csproj",
       "projectName": "HelpDesk",
-      "projectPath": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\HelpDesk\\HelpDesk.csproj",
+      "projectPath": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\HelpDesk.csproj",
       "packagesPath": "C:\\Users\\gatopc\\.nuget\\packages\\",
-      "outputPath": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\HelpDesk\\obj\\",
+      "outputPath": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
