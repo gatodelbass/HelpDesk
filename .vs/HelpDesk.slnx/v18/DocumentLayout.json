@@ -1,12 +1,182 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\dotnet_repo\\HelpDesk\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\migrations\\20260612042746_tablatickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\migrations\\20260612042746_tablatickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\database\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|c:\\dotnet_repo\\helpdesk\\helpdesk\\views\\home\\caramba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A29435A-AFBB-A2BD-9BBE-E9AC8FE2D16B}|HelpDesk\\HelpDesk.csproj|solutionrelative:helpdesk\\views\\home\\caramba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Tickets\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelpDesk\\Views\\Tickets\\Index.cshtml",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Tickets\\Index.cshtml",
+              "RelativeToolTip": "HelpDesk\\Views\\Tickets\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-12T04:50:07.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "HelpDesk\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T04:40:35.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260612042746_tablaTickets.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Migrations\\20260612042746_tablaTickets.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Migrations\\20260612042746_tablaTickets.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Migrations\\20260612042746_tablaTickets.cs",
+              "RelativeToolTip": "HelpDesk\\Migrations\\20260612042746_tablaTickets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T04:27:46.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Models\\Class.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Models\\Class.cs",
+              "RelativeToolTip": "HelpDesk\\Models\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:13:31.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Caramba.cshtml",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Home\\Caramba.cshtml",
+              "RelativeDocumentMoniker": "HelpDesk\\Views\\Home\\Caramba.cshtml",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Home\\Caramba.cshtml",
+              "RelativeToolTip": "HelpDesk\\Views\\Home\\Caramba.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-09T03:56:52.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Program.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Program.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Program.cs",
+              "RelativeToolTip": "HelpDesk\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T03:54:07.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\appsettings.json",
+              "RelativeDocumentMoniker": "HelpDesk\\appsettings.json",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\appsettings.json",
+              "RelativeToolTip": "HelpDesk\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-09T03:40:44.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelpDesk\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HelpDesk\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-09T03:40:30.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HelpDesk\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T03:35:59.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Database\\DbConnection.cs",
+              "RelativeDocumentMoniker": "HelpDesk\\Database\\DbConnection.cs",
+              "ToolTip": "C:\\dotnet_repo\\HelpDesk\\HelpDesk\\Database\\DbConnection.cs",
+              "RelativeToolTip": "HelpDesk\\Database\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T04:34:22.315Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

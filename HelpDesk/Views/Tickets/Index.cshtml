@@ -1,0 +1,67 @@
+﻿@model IEnumerable<HelpDesk.Models.Ticket>
+
+@{
+
+    ViewData["Title"] = "tickesss";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">tickets</h1>
+
+
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between ">
+
+            <div class="d-flex justify-content-between ">
+
+                <a asp-action="Create" class="btn btn-primary">Crear tickettt</a>
+
+            </div>
+
+
+            <table class="table table-striped">
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>titulo</th>
+                        <th>prioridad</th>
+                        <th>estado</th>
+                        <th>fecha</th>
+                        <th>acciones</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var ticket in Model)
+                    {
+                        <tr>
+                            <td>@ticket.Id</td>
+                            <td>@ticket.Titulo</td>
+                            <td>
+
+                            
+                            
+                            
+                                <span class="badge @(ticket.Prioridad == "High" ? "bg-danger" : "bg-info")">
+                                    @ticket.Prioridad jhbf
+
+                                </span>
+                            </td>
+                            <td>@ticket.estado</td>
+                            <td>@ticket.FechaCreacion</td>
+                            <td></td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+
+        </div>
+    </div>
+
+
+   
+</div>
