@@ -1,0 +1,92 @@
+﻿@model HelpDesk.Models.Ticket
+
+@{
+
+    ViewData["Title"] = "tickesss";
+}
+
+
+<div class="container mt-4">
+    <div>
+        <h1 class="text-center">
+
+            Gestion de ticketes
+        </h1>
+
+    </div>
+
+   
+    <div class="d-flex justify-content-between align-items-center mb-3">
+
+      
+
+      
+        <div class="row">
+            <div class=" shadow-sm p-4 border rounded">
+                <form asp-action="Edit" method="POST">
+
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger">
+
+                    </div>
+
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="FechaCreacion" />
+
+                    <div class="mb-3">
+                        <label asp-for="Titulo" class="form-label">Titulo ticket</label>
+                        <input asp-for="Titulo" class="form-control" />
+                        <span asp-validation-for="Titulo" class="text-danger"> </span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Descripcion" class="form-label">Titulo ticket</label>
+                        <textarea asp-for="Descripcion" class="form-control"> </textarea>
+                        <span asp-validation-for="Descripcion" class="text-danger"> </span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Prioridad" class="form-label">Prioridad</label>
+                        <select asp-for="Prioridad" class="form-select">
+                            <option value="Baja">Baja</option>
+                            <option value="Baja">Baja</option>
+                            <option value="Media">Media</option>
+                            <option value="Alta">Alta</option>
+                        </select>
+
+                        <label asp-for="Estado" class="form-label">Estado</label>
+
+                        <select asp-for="Estado" class="form-select">
+                            <option value="Abierto">Abierto</option>
+                            <option value="En proceso">En proceso</option>
+                            <option value="Resuelto">Resuelto</option>
+
+                        </select>
+
+
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-success">Editar</button>
+                            <a asp-action="Index">Volver</a>
+                        </div>
+
+                      
+                    </div>
+
+                  
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

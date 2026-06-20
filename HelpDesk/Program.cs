@@ -1,6 +1,8 @@
 using HelpDesk.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Identity;
+using HelpDesk.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,21 @@ builder.Services.AddDbContext<DbConnection>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
     
 );
+
+
+
+builder.Services.AddDefaultIdentity<IdentityUser>(
+    options =>
+    {
+        options.SignIn.RequireConfirmedAccount = false;
+        options.Password.RequireDigit = false;
+        options.Password.RequiredLength = 6;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = false;
+    }
+    ).AddEntityFrameworkStores<DbConnection>();
+
+builder.Services.AddRazorPages();
 
 
 string connectionString = "Server=localhost\\SQLEXPRESS;Database=HelpDeskDb;User ID=elgato;Password=Engel1979*;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True";
@@ -57,7 +74,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapStaticAssets();
@@ -66,6 +83,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
+
 
 
 app.Run();
